@@ -6,6 +6,7 @@ public class Giraffe extends Animal implements Herbivore, TrickAnimal {
     private String helloText;
     private String eatText;
     private String trick;
+    private final Random random = new Random();
 
     public Giraffe(String name) {
         super(name);
